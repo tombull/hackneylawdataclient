@@ -60,8 +60,7 @@ class ContactItem(object):
             'message_original': 'messageOriginal',
             'case_record': 'caseRecord',
             'id': '_id',
-            'v': '__v',
-            'id': 'id'
+            'v': '__v'
         }
 
         self._owner_id = None

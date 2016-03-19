@@ -52,8 +52,7 @@ class SystemMessage(object):
             'message_name': 'messageName',
             'message': 'message',
             'id': '_id',
-            'v': '__v',
-            'id': 'id'
+            'v': '__v'
         }
 
         self._owner_id = None

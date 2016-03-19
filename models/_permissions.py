@@ -58,8 +58,7 @@ class Permissions(object):
             'fields_allow': 'fields.allow',
             'fields_deny': 'fields.deny',
             'id': '_id',
-            'v': '__v',
-            'id': 'id'
+            'v': '__v'
         }
 
         self._role = None

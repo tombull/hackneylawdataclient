@@ -62,8 +62,7 @@ class Users(object):
             'role': 'role',
             'description': 'description',
             'id': '_id',
-            'v': '__v',
-            'id': 'id'
+            'v': '__v'
         }
 
         self._account_type = None

@@ -54,8 +54,7 @@ class Providers(object):
             'default_role': 'defaultRole',
             'order': 'order',
             'id': '_id',
-            'v': '__v',
-            'id': 'id'
+            'v': '__v'
         }
 
         self._name = None

@@ -65,7 +65,7 @@ class CaseRecord(object):
             'case_type': 'caseType',
             'id': '_id',
             'v': '__v',
-            'id': 'id',
+            
             'location': 'location',
             'related_files': 'relatedFiles',
             'related_pictures': 'relatedPictures',

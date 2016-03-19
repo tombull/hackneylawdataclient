@@ -48,8 +48,7 @@ class Config(object):
             'key': 'key',
             'value': 'value',
             'id': '_id',
-            'v': '__v',
-            'id': 'id'
+            'v': '__v'
         }
 
         self._key = None

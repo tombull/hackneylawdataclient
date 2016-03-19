@@ -56,8 +56,7 @@ class UploadedDocument(object):
             'case_record': 'caseRecord',
             'related_document': 'relatedDocument',
             'id': '_id',
-            'v': '__v',
-            'id': 'id'
+            'v': '__v'
         }
 
         self._owner_id = None

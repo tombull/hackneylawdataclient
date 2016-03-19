@@ -60,8 +60,7 @@ class Webhooks(object):
             'content_type': 'contentType',
             'body_template': 'bodyTemplate',
             'id': '_id',
-            'v': '__v',
-            'id': 'id'
+            'v': '__v'
         }
 
         self._enabled = None

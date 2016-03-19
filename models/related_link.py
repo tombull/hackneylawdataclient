@@ -56,8 +56,7 @@ class RelatedLink(object):
             'classification': 'classification',
             'related_answer': 'relatedAnswer',
             'id': '_id',
-            'v': '__v',
-            'id': 'id'
+            'v': '__v'
         }
 
         self._owner_id = None

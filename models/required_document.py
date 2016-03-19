@@ -62,7 +62,7 @@ class RequiredDocument(object):
             'related_answer': 'relatedAnswer',
             'id': '_id',
             'v': '__v',
-            'id': 'id',
+            
             'uploaded_document': 'uploadedDocument',
             'uploaded_picture': 'uploadedPicture',
             'document_state': 'documentState'

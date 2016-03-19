@@ -58,7 +58,6 @@ class User(object):
             'optional_identifier': 'optionalIdentifier',
             'id': '_id',
             'v': '__v',
-            'id': 'id',
             'case_records': 'caseRecords'
         }
 

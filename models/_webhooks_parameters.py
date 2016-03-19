@@ -48,8 +48,7 @@ class WebhooksParameters(object):
             'type': 'type',
             'key': 'key',
             'value': 'value',
-            'id': '_id',
-            'id': 'id'
+            'id': '_id'
         }
 
         self._type = None
