@@ -8,7 +8,6 @@ from .models._config import Config
 from .models.contact_item import ContactItem
 from .models.document_state import DocumentState
 from .models.generic_question import GenericQuestion
-from .models.geo_json_point import GeoJsonPoint
 from .models.lawyer import Lawyer
 from .models._permissions import Permissions
 from .models.potential_answer import PotentialAnswer

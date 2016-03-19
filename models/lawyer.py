@@ -57,7 +57,6 @@ class Lawyer(object):
             'trello_id': 'trelloId',
             'id': '_id',
             'v': '__v',
-            
             'referrals': 'referrals',
             'specialisms': 'specialisms'
         }

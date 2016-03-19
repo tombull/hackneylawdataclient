@@ -64,7 +64,6 @@ class Classification(object):
             'is_active': 'isActive',
             'id': '_id',
             'v': '__v',
-            
             'case_record': 'caseRecord',
             'questions': 'questions',
             'related_information': 'relatedInformation',

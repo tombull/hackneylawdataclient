@@ -41,13 +41,13 @@ class CaseRecord(object):
             'created_at': 'datetime',
             'start_time': 'datetime',
             'case_state': 'str',
+            'location': 'str',
             'relation_to_user': 'str',
             'user': 'User',
             'case_type': 'Classification',
             'id': 'str',
             'v': 'float',
             'id': 'str',
-            'location': 'GeoJsonPoint',
             'related_files': 'list[str]',
             'related_pictures': 'list[str]',
             'required_documents': 'list[str]',
@@ -60,13 +60,12 @@ class CaseRecord(object):
             'created_at': '_createdAt',
             'start_time': 'startTime',
             'case_state': 'caseState',
+            'location': 'location',
             'relation_to_user': 'relationToUser',
             'user': 'user',
             'case_type': 'caseType',
             'id': '_id',
             'v': '__v',
-            
-            'location': 'location',
             'related_files': 'relatedFiles',
             'related_pictures': 'relatedPictures',
             'required_documents': 'requiredDocuments',
@@ -78,13 +77,13 @@ class CaseRecord(object):
         self._created_at = None
         self._start_time = None
         self._case_state = None
+        self._location = None
         self._relation_to_user = None
         self._user = None
         self._case_type = None
         self._id = None
         self._v = None
         self._id = None
-        self._location = None
         self._related_files = None
         self._related_pictures = None
         self._required_documents = None
@@ -178,6 +177,28 @@ class CaseRecord(object):
         :type: str
         """
         self._case_state = case_state
+
+    @property
+    def location(self):
+        """
+        Gets the location of this CaseRecord.
+
+
+        :return: The location of this CaseRecord.
+        :rtype: str
+        """
+        return self._location
+
+    @location.setter
+    def location(self, location):
+        """
+        Sets the location of this CaseRecord.
+
+
+        :param location: The location of this CaseRecord.
+        :type: str
+        """
+        self._location = location
 
     @property
     def relation_to_user(self):
@@ -310,28 +331,6 @@ class CaseRecord(object):
         :type: str
         """
         self._id = id
-
-    @property
-    def location(self):
-        """
-        Gets the location of this CaseRecord.
-
-
-        :return: The location of this CaseRecord.
-        :rtype: GeoJsonPoint
-        """
-        return self._location
-
-    @location.setter
-    def location(self, location):
-        """
-        Sets the location of this CaseRecord.
-
-
-        :param location: The location of this CaseRecord.
-        :type: GeoJsonPoint
-        """
-        self._location = location
 
     @property
     def related_files(self):

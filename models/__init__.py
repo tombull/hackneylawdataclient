@@ -8,7 +8,6 @@ from ._config import Config
 from .contact_item import ContactItem
 from .document_state import DocumentState
 from .generic_question import GenericQuestion
-from .geo_json_point import GeoJsonPoint
 from .lawyer import Lawyer
 from ._permissions import Permissions
 from .potential_answer import PotentialAnswer

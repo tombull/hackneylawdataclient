@@ -56,7 +56,6 @@ class GenericQuestion(object):
             'classification': 'classification',
             'id': '_id',
             'v': '__v',
-            
             'potential_answers': 'potentialAnswers'
         }
 

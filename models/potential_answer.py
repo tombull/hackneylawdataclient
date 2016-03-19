@@ -57,7 +57,6 @@ class PotentialAnswer(object):
             'question': 'question',
             'id': '_id',
             'v': '__v',
-            
             'related_link': 'relatedLink',
             'required_document': 'requiredDocument'
         }
